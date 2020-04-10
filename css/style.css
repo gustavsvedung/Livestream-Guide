@@ -24,12 +24,19 @@ main {
 body {
     font-family: 'Helvetica', sans-serif;
     letter-spacing: -0.05em;
+    opacity: 70%;
     margin: 0 auto;
     padding: 1em 1em 0 1em;
+    background-image: url(../img/old_paper.png);
+}
+
+header {
+    text-align: center;
 }
 
 a {
     font-weight: normal;
+    color: inherit;
 }
 
 p {
@@ -51,7 +58,8 @@ h3 {
 }
 
 img {
-    width: 100%;
+    width: 60%;
+    text-align: center;
 }
 
 header {
