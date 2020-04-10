@@ -23,8 +23,8 @@ main {
 /* DESIGN */
 body {
     font-family: 'Helvetica', sans-serif;
+    color: #46474A;
     letter-spacing: -0.05em;
-    opacity: 20%;
     margin: 0 auto;
     padding: 1em 1em 0 1em;
     background-image: url(../img/old_paper.png);
@@ -61,6 +61,7 @@ h3 {
 img {
     width: 60%;
     text-align: center;
+    opacity: 0.8;
 }
 
 header {
