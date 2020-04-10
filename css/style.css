@@ -25,6 +25,7 @@ body {
     font-family: 'Helvetica', sans-serif;
     letter-spacing: -0.05em;
     opacity: 70%;
+    visibility: visible;
     margin: 0 auto;
     padding: 1em 1em 0 1em;
     background-image: url(../img/old_paper.png);
