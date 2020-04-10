@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>LIVESTREAM GUIDE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/normalize.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+           <h1>LIVESTREAM GUIDE</h1>
+        </header>
+        <main> 
+            <div class="date"><h2>Today</h2></div>
+            <div id="js-gcal-event"></div>
+        </main>
+        <footer>
+            <p>Code and concept by Gustav Svedung</p> 
+        </footer>
+        <!--External scripts-->
+        <script src="https://cdn.polyfill.io/v3/polyfill.min.js?version=3.52.1&features=Array.prototype.forEach,console,Date.prototype.toISOString,document,Intl,Map,Promise,Set"></script>
+        <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+        <script src="https://unpkg.com/dayjs@1.8.23/plugin/localizedFormat.js"></script>
+        <script>dayjs.extend(window.dayjs_plugin_localizedFormat)</script>
+        <script src="https://apis.google.com/js/api.js"></script>
+        <!--Local scripts-->
+        <script src="js/google-calendar.js"></script>
+        <!-- <script src="js/scripts.js"></script> -->
+    </body>
+</html>
